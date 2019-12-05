@@ -110,6 +110,9 @@ img,video,audio{
 }
 
 /*/////SECTIONS///////*/
+header{
+  position: fix;
+}
 section{
   padding: 20px;
   margin-bottom: 20px;
