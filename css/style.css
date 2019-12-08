@@ -6,15 +6,16 @@ is
 a comment! */
 
 /* CSS Syntax:
-
 selector {
   property: value;
   property: value;
 }
-
 */
 
 /* Type selector */
+*{
+  box-sizing: border-box;
+}
 
 p { /* select all <p> */
   font-size: 1em; /* 16px, ?pt, 100%, 1em */
@@ -69,4 +70,44 @@ figcaption {
 
 #details a:active {
   color: red;
+}
+/* Wrapper */
+.wrapper{
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+.col-1{
+  width:32%;
+  float: left;
+  margin-left: 2%;
+  background: #eee;
+}
+.col-2{
+  width:68%;
+  float: left;
+  margin-left: 2%;
+  background: #eee;
+}
+.col-3{
+  width: 100%;
+  padding: 20px;
+  background: #eee;
+}
+.first{
+  margin-left: 0;
+}
+img,video,audio{
+  width: 100%;
+}
+.fixClear::after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+footer .wrapper{
+  padding: 20px;
 }
