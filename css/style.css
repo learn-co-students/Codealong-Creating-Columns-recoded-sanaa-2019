@@ -14,6 +14,10 @@ selector {
 
 */
 
+.container{
+  width: 60%;
+  margin: 10px 20%;
+}
 /* Type selector */
 
 p { /* select all <p> */
@@ -69,4 +73,61 @@ figcaption {
 
 #details a:active {
   color: red;
+}
+header{
+  background: #eee;
+}
+#featured-property img ,#featured-property figure {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#featured-property p{
+  padding: 10px;
+}
+.para{
+  background: #eee;
+}
+.videoFig{
+  margin-left: 0px;
+  width: 100%;
+}
+.videoFig video{
+  width: 100%;
+}
+.videoAll{
+  width: 70%;
+  margin-left: 0px;
+  float: left;
+
+}
+.about{
+  float: left;
+  width: 23%;
+  margin-left: 2%;
+  padding: 2%;
+}
+.about ::after{
+  clear: both;
+}
+#details{
+  clear: both;
+  height: 270px;
+  background: #eee;
+}
+#details div{
+width: 30%;
+float: left;
+background: rgb(190, 190, 190);
+padding: 1%;
+}
+.marginLeft{
+margin-right: 2%;
+
+}
+footer{
+  clear: both;
+  content: ' ';
+  text-align: center;
+  padding: 10px;
 }
